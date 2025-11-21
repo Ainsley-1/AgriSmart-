@@ -93,7 +93,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90743.png" 
+                    src="/images/freepik__the-style-is-candid-image-photography-with-natural__90743.png"
                     alt="Farm Fresh Quality" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -108,7 +108,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90744.png" 
+                   src="/images/freepik__the-style-is-candid-image-photography-with-natural__90744.png" 
                     alt="Direct Connection" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -123,7 +123,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90742.jpeg" 
+                   src="/images/freepik__the-style-is-candid-image-photography-with-natural__90742.jpeg"
                     alt="Fast Delivery" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -213,8 +213,8 @@ function Home() {
       {/* Our Story Section */}
      
      <section id="our-story" className="our-story-section" style={{
-        backgroundImage: 'url(/src/assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)',
-        backgroundSize: 'cover',
+    backgroundImage: 'url(/images/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)'
+      backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         minHeight: '600px',
