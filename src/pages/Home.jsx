@@ -2,12 +2,6 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../App.css";
 
-// Import images from assets
-import farmFreshImg from '../assets/freepik__the-style-is-candid-image-photography-with-natural__90743.png';
-import directConnectionImg from '../assets/freepik__the-style-is-candid-image-photography-with-natural__90744.png';
-import fastDeliveryImg from '../assets/freepik__the-style-is-candid-image-photography-with-natural__90742.jpeg';
-import storyBgImg from '../assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg';
-
 function Home() {
   const topProducts = [
   {
@@ -80,7 +74,7 @@ function Home() {
             </Col>
             <Col lg={4} className="d-none d-lg-block">
               <div className="hero-image text-center">
-                <span style={{ fontSize: "150px" }}>🌾</span>
+                <span style={{ fontSize: "150px" }}></span>
               </div>
             </Col>
           </Row>
@@ -99,7 +93,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src={farmFreshImg} 
+                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90743.png" 
                     alt="Farm Fresh Quality" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -114,7 +108,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src={directConnectionImg} 
+                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90744.png" 
                     alt="Direct Connection" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -129,7 +123,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src={fastDeliveryImg} 
+                    src="/src/assets/freepik__the-style-is-candid-image-photography-with-natural__90742.jpeg" 
                     alt="Fast Delivery" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -219,7 +213,7 @@ function Home() {
       {/* Our Story Section */}
      
      <section id="our-story" className="our-story-section" style={{
-        backgroundImage: `url(${storyBgImg})`,
+        backgroundImage: 'url(/src/assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
