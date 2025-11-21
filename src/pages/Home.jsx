@@ -93,7 +93,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/images/freepik__the-style-is-candid-image-photography-with-natural__90743.png" 
+                    src="https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
                     alt="Farm Fresh Quality" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -108,7 +108,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/images/freepik__the-style-is-candid-image-photography-with-natural__90744.png" 
+                    src="https://images.pexels.com/photos/5677730/pexels-photo-5677730.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
                     alt="Direct Connection" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -123,7 +123,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="/images/freepik__the-style-is-candid-image-photography-with-natural__90742.jpeg"
+                    src="https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
                     alt="Fast Delivery" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
