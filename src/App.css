@@ -1,0 +1,371 @@
+﻿/* Professional Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f8f9fa;
+}
+
+/* Professional Hero Section */
+.hero-section {
+  background-image: url(assets/close-up-view-shopping-cart-overloaded-with-food-while-background-female-person-choosing-products.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(7, 165, 99);
+  padding: 100px 0;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.hero-content .lead {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  color: #ffffff;
+}
+qq
+
+/* ===== TOP PRODUCTS SECTION STYLES ===== */
+
+/* Product Card Container */
+.product-card-hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Card Hover Effect */
+.product-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Product Image Container - Fixed Height */
+.product-card-hover > div:first-child {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Product Images - Proper Sizing (THIS IS THE KEY!) */
+.product-card-hover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+/* Image Zoom on Hover */
+.product-card-hover:hover img {
+  transform: scale(1.1);
+}
+
+/* Product Card Body */
+.product-card-hover .card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Product Title */
+.product-card-hover .card-title {
+  color: #1a202c;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Product Description */
+.product-card-hover .card-text {
+  color: #718096;
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+  .product-card-hover > div:first-child {
+    height: 180px;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 576px) {
+  .product-card-hover > div:first-child {
+    height: 160px;
+  }
+}
+
+/* Our Story Section */
+.our-story-section {
+  background-image: url(assets/close-up-view-shopping-cart-overloaded-with-food-while-background-female-person-choosing-products.jpg);
+  padding: 80px 0;
+  position: relative;
+  margin: 0;
+  border-radius: 0;
+  overflow: hidden;
+  min-height: 600px;
+  width: 100%;
+}
+
+.story-content {
+  position: relative;
+  z-index: 2;
+}
+
+.story-content h2 {
+  line-height: 1.2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.story-text {
+  position: relative;
+  z-index: 2;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.story-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.story-text .btn {
+  transition: all 0.3s ease;
+}
+
+.story-text .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(163, 217, 119, 0.4);
+}
+
+/* Animations */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .our-story-section {
+    padding: 60px 0;
+  }
+  
+  .story-content {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .story-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-story-section {
+    min-height: auto !important;
+    padding: 40px 20px;
+  }
+  
+  .story-content h2 {
+    font-size: 2rem;
+  }
+  
+  .story-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Product Card Hover */
+.product-card-hover {
+  transition: all 0.3s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Professional Cards */
+.pro-card {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.pro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.pro-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Professional Buttons */
+.btn-pro {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary-pro {
+  background: #22c55e;
+  color: white;
+  border: none;
+}
+
+.btn-primary-pro:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(34, 197, 94, 0.3);
+  color: white;
+}
+
+.btn-outline-pro {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.btn-outline-pro:hover {
+  background: white;
+  color: #22c55e;
+  border-color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .our-story-section {
+    margin: 30px 15px;
+    padding: 60px 0;
+  }
+
+  .story-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .story-content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section {
+    padding: 60px 0;
+    text-align: center;
+    min-height: 60vh;
+  }
+
+  .hero-content .lead {
+    font-size: 1rem;
+  }
+
+  .our-story-section {
+    margin: 20px 10px;
+    padding: 40px 0;
+  }
+
+  .story-content h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .story-content h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .story-text {
+    margin-top: 2rem;
+    padding: 2rem !important;
+  }
+
+  .btn-pro {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Navbar responsive */
+  .navbar-collapse {
+    background: rgba(22, 163, 74, 0.98);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pro-icon {
+    font-size: 2rem;
+  }
+
+  .story-content h3 {
+    font-size: 1.3rem;
+  }
+}

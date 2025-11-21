@@ -1,0 +1,56 @@
+﻿/* Import Bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Global Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remove any default margins/padding from main containers */
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid ;
+  outline-offset: 2px;
+}
