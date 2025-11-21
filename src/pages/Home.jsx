@@ -212,14 +212,12 @@ function Home() {
 
       {/* Our Story Section */}
      
-     <section id="our-story" className="our-story-section" style={{
-      backgroundImage: 'url(/src/assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)'
-      backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        minHeight: '600px',
-        position: 'relative'
-      }}>
+      <section id="our-story" className="our-story-section" style={{
+       backgroundImage: 'url(/assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)',
+       backgroundSize: 'cover',
+       backgroundPosition: 'center',
+       backgroundRepeat: 'no-repeat'
+       }}>
         {/* Dark overlay for better text readability */}
         <div style={{
           position: 'absolute',
