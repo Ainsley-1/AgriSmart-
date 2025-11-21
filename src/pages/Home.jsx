@@ -108,7 +108,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="https://images.pexels.com/photos/5677730/pexels-photo-5677730.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+                    src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
                     alt="Direct Connection" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -123,7 +123,7 @@ function Home() {
               <div className="pro-card p-4 text-center h-100">
                 <div className="pro-icon mb-3">
                   <img 
-                    src="https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
+                    src="https://images.pexels.com/photos/6169659/pexels-photo-6169659.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop"
                     alt="Fast Delivery" 
                     style={{ width: '90%', height: '300px', objectFit: 'cover', borderRadius: '8px' }}
                   />
@@ -213,7 +213,7 @@ function Home() {
       {/* Our Story Section */}
      
       <section id="our-story" className="our-story-section" style={{
-       backgroundImage: 'url(/assets/elevated-view-smartphone-near-vegetables-container-black-wooden-surface.jpg)',
+       backgroundImage: 'url(https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=1920)',
        backgroundSize: 'cover',
        backgroundPosition: 'center',
        backgroundRepeat: 'no-repeat'
