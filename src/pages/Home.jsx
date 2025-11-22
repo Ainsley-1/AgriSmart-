@@ -37,58 +37,52 @@ function Home() {
 
   return (
     <div className="home-page">
-      {/* Hero Section */}
-      <section className="hero-section">
-        <Container>
-          <Row className="align-items-center">
-            <Col lg={8}>
-              <div className="hero-content">
-                <h1 className="display-3 fw-bold mb-4">
-                  Fresh Farm Produce, Direct to You
-                </h1>
-                <p className="lead mb-4">
-                  Connect directly with local farmers. Get the freshest, most nutritious produce 
-                  delivered straight to your doorstep. Support local agriculture while enjoying 
-                  premium quality food.
-                </p>
-                <div className="d-flex gap-3 flex-wrap">
-                  <Button
-                    as={Link}
-                    to="/register"
-                    size="lg"
-                    className="btn-primary-pro"
-                  >
-                    Get Started Free
-                  </Button>
-                  <Button
-                    as={Link}
-                    to="/products"
-                    size="lg"
-                    variant="outline-light"
-                    className="btn-outline-pro"
-                  >
-                    Browse Products
-                  </Button>
-                </div>
-              </div>
-            </Col>
-        <Col lg={4} className="d-none d-lg-block">
-        <div className="hero-image text-center">
-       <img 
-      src="https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg?auto=compress&cs=tinysrgb&w=600"
-      alt="Fresh vegetables basket"
-      style={{ 
-        width: '100%', 
-        maxWidth: '400px',
-        borderRadius: '20px',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
-      }}
-      />
-      </div>
-       </Col>
-          </Row>
-        </Container>
-      </section>
+      
+   {/* Hero Section */}
+      
+  <section className="hero-section" style={{
+  backgroundImage: 'url(https://images.pexels.com/photos/5677794/pexels-photo-5677794.jpeg?auto=compress&cs=tinysrgb&w=600)',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  minHeight: '100vh'
+}}>
+  <Container>
+    <Row className="align-items-center" style={{ minHeight: '100vh' }}>
+      <Col lg={8}>
+        <div className="hero-content">
+          <h1 className="display-3 fw-bold mb-4">
+            Fresh Farm Produce, Direct to You
+          </h1>
+          <p className="lead mb-4">
+            Connect directly with local farmers. Get the freshest, most nutritious produce 
+            delivered straight to your doorstep. Support local agriculture while enjoying 
+            premium quality food.
+          </p>
+          <div className="d-flex gap-3 flex-wrap">
+            <Button
+              as={Link}
+              to="/register"
+              size="lg"
+              className="btn-primary-pro"
+            >
+              Get Started Free
+            </Button>
+            <Button
+              as={Link}
+              to="/products"
+              size="lg"
+              variant="outline-light"
+              className="btn-outline-pro"
+            >
+              Browse Products
+            </Button>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
 
     {/* Features Section */}
      <section id="why-choose" className="py-5 bg-white">
