@@ -72,11 +72,20 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col lg={4} className="d-none d-lg-block">
-              <div className="hero-image text-center">
-                <span style={{ fontSize: "150px" }}></span>
-              </div>
-            </Col>
+        <Col lg={4} className="d-none d-lg-block">
+        <div className="hero-image text-center">
+       <img 
+      src="https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg?auto=compress&cs=tinysrgb&w=600"
+      alt="Fresh vegetables basket"
+      style={{ 
+        width: '100%', 
+        maxWidth: '400px',
+        borderRadius: '20px',
+        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+      }}
+      />
+      </div>
+       </Col>
           </Row>
         </Container>
       </section>
