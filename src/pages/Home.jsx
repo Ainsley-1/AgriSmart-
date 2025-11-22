@@ -40,14 +40,23 @@ function Home() {
       
    {/* Hero Section */}
       
-  <section className="hero-section" style={{
-  backgroundImage: 'url(https://images.freepik.com/free-photo/close-up-view-shopping-cart-overloaded-with-food-while-background-female-person-choosing-products_181624-25862.jpg?w=1380)',
+<section className="hero-section" style={{
+  backgroundImage: 'url(/images/close-up-view-shopping-cart-overloaded-with-food-while-background-fe.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   minHeight: '100vh'
 }}>
-  <Container>
+  <div style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    zIndex: 1
+  }}></div>
+  <Container style={{ position: 'relative', zIndex: 2 }}>
     <Row className="align-items-center" style={{ minHeight: '100vh' }}>
       <Col lg={8}>
         <div className="hero-content">
