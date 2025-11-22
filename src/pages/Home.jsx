@@ -75,7 +75,7 @@ function Home() {
         <Col lg={4} className="d-none d-lg-block">
         <div className="hero-image text-center">
        <img 
-      src="https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg?auto=compress&cs=tinysrgb&w=600"
+      src="https://images.pexels.com/photos/1458694/pexels-photo-1458694.jpeg?auto=compress&cs=tinysrgb&w=600"
       alt="Fresh vegetables basket"
       style={{ 
         width: '100%', 
