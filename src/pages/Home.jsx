@@ -41,7 +41,7 @@ function Home() {
    {/* Hero Section */}
       
   <section className="hero-section" style={{
-  backgroundImage: 'url(https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg?auto=compress&cs=tinysrgb&w=600)',
+  backgroundImage: 'url(https://images.freepik.com/free-photo/close-up-view-shopping-cart-overloaded-with-food-while-background-female-person-choosing-products_181624-25862.jpg?w=1380)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
