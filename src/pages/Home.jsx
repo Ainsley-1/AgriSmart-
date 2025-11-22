@@ -41,7 +41,7 @@ function Home() {
    {/* Hero Section */}
       
   <section className="hero-section" style={{
-  backgroundImage: 'url(https://images.pexels.com/photos/5677794/pexels-photo-5677794.jpeg?auto=compress&cs=tinysrgb&w=600)',
+  backgroundImage: 'url(https://images.pexels.com/photos/5529542/pexels-photo-5529542.jpeg?auto=compress&cs=tinysrgb&w=600)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
