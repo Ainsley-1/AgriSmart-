@@ -40,13 +40,14 @@ function Home() {
       
    {/* Hero Section */}
       
-<section className="hero-section" style={{
+  <section className="hero-section" style={{
   backgroundImage: 'url(/images/close-up-view-shopping-cart-overloaded-with-food-while-background-fe.jpg)',
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   minHeight: '100vh'
-}}>
+  }}>
+      
   <div style={{
     position: 'absolute',
     top: 0,
