@@ -226,7 +226,7 @@ function Home() {
       {/* Our Story Section */}
      
       <section id="our-story" className="our-story-section" style={{
-       backgroundImage: 'url(https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+       backgroundImage: 'url(https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress&cs=tinysrgb&w=1920)',
        backgroundSize: 'cover',
        backgroundPosition: 'center',
        backgroundRepeat: 'no-repeat'
