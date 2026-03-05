@@ -1,7 +1,7 @@
 // frontend/src/services/apiService.js
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 // PRODUCT service
 export const productService = {
@@ -41,3 +41,4 @@ export const authService = {
   register: (data) => axios.post(`${API_BASE}/auth/register`, data),
   me: () => axios.get(`${API_BASE}/auth/me`)
 };
+
